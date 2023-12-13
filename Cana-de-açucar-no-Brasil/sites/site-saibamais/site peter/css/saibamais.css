@@ -1,0 +1,74 @@
+#cabecalho {
+    background-color: rgba(148, 166, 133, 1);
+    color: black;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    
+}
+
+h1 {
+    text-align: center;
+    color: black;   
+    font-family: 'Just Another Hand', cursive;
+    font-size: 80px;
+    padding: 40px;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    justify-content: center;
+    color: black;
+}
+
+#main {
+    background-color: rgb(72, 81, 1, 1);
+    color: black;
+}
+
+.text {
+    font-size: 35px;
+    float: left; 
+    padding: 40px; 
+    background-color: rgba(197, 225, 167, 1); 
+    border-radius: 8px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(72, 81, 1, 1);
+}
+
+
+footer {
+    background-color:rgba(148, 166, 133, 1);
+    color: black; 
+    text-align: center;
+    padding: 5px;
+    margin-top: 800px;
+}
+
+.texto {
+    font-size: 35px;
+    width: 50%;
+    float: right;
+    padding: 30px; 
+    background-color: rgba(197, 225, 167, 1); 
+    border-radius: 20px;
+     
+
+}
+
+a {
+    position: relative;
+    float: right;
+    font-size: 35px; 
+    color: black
+}
+
+.jj {
+    text-align:start;
+    margin-bottom: 60px;
+}
