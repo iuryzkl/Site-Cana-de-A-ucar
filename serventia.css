@@ -82,3 +82,51 @@ footer {
     padding: 2px;
     margin-top: 200px;
 }
+
+@media all and (max-width: 400) {
+    header {
+      height: 15vh;
+      flex-direction: column;
+      display: play;
+    }
+    nav {
+      justify-content: center;
+      padding: 1.5em;
+      width: 100vw;
+    }
+    section{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: auto;
+    }
+    h1{
+      text-align: center;
+    }
+    #imagem{
+      padding-top: 0;
+    }
+    #logo{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #logo img{
+      max-width: 30%;
+    }
+  }
+  
+  @media all and (max-width:800px) {
+    p{
+      font-size: 0.7em;
+    }
+    #texto{
+      width: 80px;
+    }
+    #mostrar{
+      display: none;
+    }
+    section{
+      height: 60vh;
+    }
+  }
